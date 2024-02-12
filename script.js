@@ -7,6 +7,11 @@ document.addEventListener("DOMContentLoaded", () => {
         card.style.top = "-90px";
     });
 
+     container.addEventListener("click", () => {
+        card.style.transition = "top 0.5s";
+        card.style.top = "-90px";
+    });
+
     container.addEventListener("mouseleave", () => {
         card.style.transition = "top 0.5s";
         card.style.top = "0";
