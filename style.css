@@ -226,7 +226,12 @@ body {
     }
   }
   
-  .container:hover .card {
+  @media (hover: hover) {
+    .container:hover .card {
+      top: -90px;
+    }
+  }
+
+  #trigger:checked ~ .container .card {
     top: -90px;
   }
-  
